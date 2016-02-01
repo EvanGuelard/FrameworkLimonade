@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #C5EFFF;
+    color: #000090;
+}
+
+#content table i {
+    color: #000090;
+}
+
+#content button i, .modal_close i.fa {
+    color: #fff;
+}
+
+header {
+    background-color: #c5efff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+header img {
+    float: left;
+    width: auto;
+    height: 40px;
+}
+
+header h2 {
+     color: #B72321;
+    float: right;
+    display: inline;
+    vertical-align: middle;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+section h2 {
+    text-align: left;
+    display: inline;
+    vertical-align: middle;
+}
+
+section {
+    padding: 1% 2%;
+    text-align: center;
+    margin: 0% 2%;
+}
+
+section#content {
+    text-align: left;
+}
+
+section#boutons {
+    background-color: #FFC;
+}
+
+section#content {
+    background-color: #CFC;
+}
+
+#boutons a {
+    width: 30%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#boutons button {
+    font-size: 18px;
+}
+
+button, input[type=submit] {
+    color: #FFF;
+    background-color: #669;
+    border-width: thin;
+    border-style: solid;
+    border-color: #99C #224 #224 #99C;
+    padding: 3px;
+}
+
+button i, input[type=submit] i {
+    color: #fff;
+}
+
+button:hover, input[type=submit]:hover {
+    background-color: #555585;
+}
+
+input {
+     padding: 2px;   
+}
+
+.newboxes {
+    padding: 5px;
+    text-align: center;
+}
+
+.cache {
+    display: none;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 2% 20px 2%;
+    border-top: 1px solid #333;
+}
+
+.message p {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.message.success p {
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.message.error p {
+    border: 1px solid #D8000C;
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+/* Popup */
+
+.table_popup {
+    width: 100%;
+}
+
+.table_popup td {
+    width: auto%;
+    padding: 3px;
+}
+
+.table_popup .tab_gauche {
+    text-align: right;
+}
+
+.table_popup .tab_droite {
+    text-align: left;
+}
+
+.table_popup .tab_center {
+    text-align: center;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:500px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+/* Popup Styles*/
+.popupHeader { font-size:16px; background:#555585; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold; text-align: left; margin-bottom: 0px; color: #fff;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#555585; cursor: pointer; color:#fff !important; font-size:16px;}
+
+.popupBody {
+    padding:20px; 
+    background-color: #FFC; 
+    padding-top: 20px; 
+    margin: 0;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 977px) {
+    #boutons a {
+        display: block;
+        margin: 5px;
+        width: 100%;
+    }
+    
+    #boutons a button {
+          width: 100%;      
+    }
+    
+    #boutons {
+         text-align: center;
+    }
+}
